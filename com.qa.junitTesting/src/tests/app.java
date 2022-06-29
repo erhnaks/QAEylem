@@ -1,5 +1,6 @@
 package tests;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -9,6 +10,15 @@ import java.util.Map.Entry;
 public class app {
 
 	public static void main(String[] args) {
+
+		ArrayList<String> teams = new ArrayList<String>();
+
+		teams.add("Arsenal");
+		teams.add("Manchester ");
+		teams.add("Galatasaray");
+		teams.add("Celtic");
+
+		System.out.println(teams);
 
 		var staff = new LinkedList<String>();
 
