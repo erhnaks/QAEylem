@@ -42,6 +42,7 @@ public class app {
 		set.add("bmw");
 		set.add("ford");
 		set.add("mercedes");
+		set.add("bmw");
 
 		Iterator<String> itr1 = set.iterator();
 		while (itr1.hasNext()) {
