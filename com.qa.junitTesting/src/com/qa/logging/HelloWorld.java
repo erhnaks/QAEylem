@@ -14,5 +14,6 @@ public class HelloWorld {
 		// log.debug("Hello this is an debug message");
 		log.info("Hello this is an info message");
 		log.warning("This is your last warning...");
+		log.warning("Enough Eylem, please go to sleep now!!!");
 	}
 }
