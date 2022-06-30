@@ -26,4 +26,10 @@ public class Generics {
 		System.out.println("\nArray floatArray contains");
 		printArray(floatArray);
 	}
+
+	@Override
+	public String toString() {
+		return "Generics [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
 }
